@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма Регистрации</title>
+
+    <style>
+        label, input {
+            display: block;  
+            margin-bottom: 10px; 
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 175px;
+            padding: 5px;  
+        }
+        input[type="checkbox"] {
+            display: inline-block; 
+            width: auto;
+        }
+        input[type="submit"],
+        input[type="reset"] {
+            margin-right: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <h3>ФОРМА РЕГИСТРАЦИЙ</h3>
+        <label>Ваше имя</label>
+        <input type="text" name="first-name" placeholder="Введите имя">
+
+        <label>Ваше фамилия</label>
+        <input type="text" name="last-name" placeholder="Введите фамилию">
+
+        <label>E-mail</label>
+        <input type="email" name="email" placeholder="Введите e-mail">
+
+        <label>Пароль</label>
+        <input type="password" name="password" placeholder="пароль">
+
+        <input type="checkbox" name="agreement">
+        <label for="agreement">Пользовательское соглашение</label><br>
+
+        <input type="submit" value="Добавить">
+        <input type="reset" value="Очистить">
+
+</body>
+</html>
